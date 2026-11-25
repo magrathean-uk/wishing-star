@@ -1,0 +1,115 @@
+{
+  "id": "cow",
+  "group": "animals",
+  "tall": 1.5,
+  "w": 194,
+  "h": 149,
+  "footY": 145,
+  "px": 125,
+  "clips": {
+    "idle": {
+      "down": [
+        "idle_down_0.png",
+        "idle_down_1.png",
+        "idle_down_2.png",
+        "idle_down_3.png"
+      ],
+      "side": [
+        "idle_side_0.png",
+        "idle_side_1.png",
+        "idle_side_2.png",
+        "idle_side_3.png"
+      ],
+      "up": [
+        "idle_up_0.png",
+        "idle_up_1.png",
+        "idle_up_2.png",
+        "idle_up_3.png"
+      ]
+    },
+    "walk": {
+      "down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png",
+        "walk_down_3.png",
+        "walk_down_4.png",
+        "walk_down_5.png",
+        "walk_down_6.png",
+        "walk_down_7.png"
+      ],
+      "side": [
+        "performance_walk_side_5d1a9a4e50c6_0.png",
+        "performance_walk_side_5d1a9a4e50c6_1.png",
+        "performance_walk_side_5d1a9a4e50c6_2.png",
+        "performance_walk_side_5d1a9a4e50c6_1.png"
+      ],
+      "up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png",
+        "walk_up_3.png",
+        "walk_up_4.png",
+        "walk_up_5.png",
+        "walk_up_6.png",
+        "walk_up_7.png"
+      ]
+    },
+    "hop": {
+      "down": [
+        "hop_down_0.png",
+        "hop_down_1.png",
+        "hop_down_2.png",
+        "hop_down_3.png"
+      ],
+      "side": [
+        "hop_side_0.png",
+        "hop_side_1.png",
+        "hop_side_2.png",
+        "hop_side_3.png"
+      ],
+      "up": [
+        "hop_up_0.png",
+        "hop_up_1.png",
+        "hop_up_2.png"
+      ]
+    },
+    "look": {
+      "up": [
+        "look_up_0.png"
+      ]
+    }
+  },
+  "timing": {
+    "walk": {
+      "durs": [
+        0.15,
+        0,
+        0.15,
+        0,
+        0.15,
+        0,
+        0.15,
+        0
+      ],
+      "step": [
+        0,
+        4
+      ],
+      "stepByFacing": {
+        "side": [
+          0,
+          2
+        ]
+      }
+    },
+    "idle": {
+      "durs": [
+        1.4,
+        1.4,
+        0.05,
+        0.08
+      ]
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": "minion_d",
+  "group": "bay",
+  "tall": 1.6,
+  "w": 142,
+  "h": 144,
+  "footY": 140,
+  "px": 133,
+  "clips": {
+    "idle": {
+      "down": [
+        "idle_down_0.png",
+        "idle_down_1.png"
+      ],
+      "side": [
+        "idle_side_0.png",
+        "idle_side_1.png"
+      ],
+      "up": [
+        "idle_up_0.png",
+        "idle_up_1.png"
+      ]
+    },
+    "walk": {
+      "down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png",
+        "walk_down_3.png"
+      ],
+      "side": [
+        "walk_side_0.png",
+        "walk_side_1.png",
+        "walk_side_2.png",
+        "walk_side_3.png"
+      ],
+      "up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png",
+        "walk_up_3.png"
+      ]
+    },
+    "talk": {
+      "down": [
+        "talk_down_0.png",
+        "talk_down_1.png"
+      ],
+      "side": [
+        "talk_side_0.png",
+        "talk_side_1.png"
+      ]
+    },
+    "wave": {
+      "down": [
+        "wave_down_0.png",
+        "wave_down_1.png"
+      ],
+      "up": [
+        "wave_up_0.png"
+      ]
+    },
+    "cheer": {
+      "down": [
+        "cheer_down_0.png",
+        "cheer_down_1.png"
+      ]
+    },
+    "laugh": {
+      "down": [
+        "laugh_down_0.png",
+        "laugh_down_1.png"
+      ]
+    },
+    "surprised": {
+      "down": [
+        "surprised_down_0.png"
+      ]
+    },
+    "think": {
+      "down": [
+        "think_down_0.png"
+      ]
+    },
+    "look": {
+      "up": [
+        "look_up_0.png"
+      ]
+    }
+  },
+  "timing": {
+    "walk": {
+      "durs": [
+        0.09,
+        0.09,
+        0.09,
+        0.09
+      ],
+      "step": [
+        1,
+        3
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <!-- iPad held sideways (package 65): no zoom, the whole screen, the safe area left to the buttons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Wishing Star" />
+    <meta name="theme-color" content="#10131f" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="icons/icon-180.png" />
+    <link rel="icon" type="image/png" href="icons/icon-192.png" />
+    <title>The Wishing Star</title>
+    <style>
+      html, body { margin: 0; height: 100%; overflow: hidden; background: #10131f; }
+      /* no rubber band, no pull to refresh, no text selection, no long-press menu, no grey flash on a tap */
+      html, body { position: fixed; inset: 0; overscroll-behavior: none; touch-action: none; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent; -webkit-text-size-adjust: 100%; }
+      input { -webkit-user-select: text; user-select: text; }
+      #game { width: 100vw; height: 100vh; height: 100dvh; }
+      canvas { outline: none; display: block; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+      #name-entry { position: fixed; inset: 0; display: none; align-items: center; justify-content: center; background: rgba(16, 19, 31, 0.6); z-index: 10; }
+      #name-entry.open { display: flex; }
+      #name-entry .card { background: #fff8e7; border: 6px solid #f2b84b; border-radius: 28px; padding: 28px 36px; text-align: center; font-family: Nunito, sans-serif; box-shadow: 0 12px 0 rgba(0, 0, 0, 0.25); }
+      #name-entry label { display: block; font: 700 28px Fredoka, Nunito, sans-serif; color: #3b2a1a; margin-bottom: 14px; }
+      #name-entry input { font: 700 32px Nunito, sans-serif; text-align: center; width: 9em; padding: 8px 12px; border-radius: 16px; border: 4px solid #c98b2b; outline: none; color: #3b2a1a; background: #fff; }
+      #name-entry small { display: block; margin-top: 12px; font: 600 18px Nunito, sans-serif; color: #7a5a35; }
+      #name-entry .actions { display: flex; justify-content: center; gap: 16px; margin-top: 16px; }
+      #name-entry button { min-width: 100px; min-height: 48px; padding: 8px 18px; border: 3px solid #c98b2b; border-radius: 14px; background: #fff; color: #3b2a1a; font: 700 22px Nunito, sans-serif; cursor: pointer; }
+    </style>
+  </head>
+  <body>
+    <div id="game"></div>
+    <div id="name-entry"><div class="card"><label id="name-label" for="name-input"></label><input id="name-input" maxlength="12" autocomplete="off" spellcheck="false" /><small id="name-hint"></small><div class="actions"><button id="name-back" type="button">Back</button><button id="name-done" type="button">Done</button></div></div></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

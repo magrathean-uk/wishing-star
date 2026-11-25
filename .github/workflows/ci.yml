@@ -1,0 +1,71 @@
+name: CI and deploy
+
+# Every push runs the checks on the self-hosted runner on G's Mac (launchd uk.magrathean.github-actions.wishing-star).
+# A push to main that passes them deploys the server copy to https://magrathean.uk/game/ with tools/deploy/vps.sh
+# (clean worktree build, local smoke, upload, activate, outside check, rollback on failure), one deploy at a time.
+# Other branches run the checks only. No manual dispatch: only a push to main deploys.
+# Soaks, the solver and the frame gate stay in the candidate run; they are not run here.
+
+on:
+  push:
+    branches: ['**']
+    # A push that changes only notes skips the run (and the redeploy of identical code). Nothing built or tested reads
+    # these files; a push that also touches anything else runs in full.
+    paths-ignore:
+      - 'docs/**'
+      - 'AGENTS.md'
+      - 'CLAUDE.md'
+
+permissions:
+  contents: read
+
+env:
+  HOSTLOAD: /Users/dad/.agents/skills/plan/scripts/hostload.sh
+  # Machine load rules (~/dev/planner/manager/machine-load.md): two slots on the whole Mac, load gate 10,
+  # at most 3 cores a job, everything under nice -n 15.
+  PLAN_HEAVY_SLOTS: '2'
+  PLAN_LOAD_MAX: '10'
+  WS_DEPLOY_SSH: vps-game
+  WS_DEPLOY_SSH_CONFIG: /Users/dad/dev/machine/state/wishing-star-deploy/ssh_config
+
+jobs:
+  check:
+    runs-on: [self-hosted, macOS, ARM64, wishing-star-mac]
+    defaults:
+      run:
+        shell: /Users/dad/dev/machine/bin/website-ci-shell {0}
+    timeout-minutes: 100
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Toolchain
+        run: node --version && npm --version
+      - name: Install, typecheck, lint, data checks and tests (one heavy slot, 3 test workers)
+        run: |
+          "$HOSTLOAD" run --label wishing-star-ci-check --wait 3600 -- nice -n 15 zsh -c 'npm ci --no-audit --no-fund && npm run typecheck && npm run lint && npm run check && npx vitest run --maxWorkers=3 --testTimeout=60000'
+
+  deploy:
+    needs: check
+    if: github.ref == 'refs/heads/main'
+    runs-on: [self-hosted, macOS, ARM64, wishing-star-mac]
+    defaults:
+      run:
+        shell: /Users/dad/dev/machine/bin/website-ci-shell {0}
+    timeout-minutes: 100
+    # One deploy at a time; a deploy in progress is never cancelled (a newer push waits, and replaces any older one
+    # still waiting).
+    concurrency:
+      group: wishing-star-vps-deploy
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Install and deploy this commit to magrathean.uk/game (one heavy slot; only while it is still main's tip)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TIP=$(curl -fsS -H "Authorization: Bearer $GH_TOKEN" -H 'Accept: application/vnd.github.sha' "$GITHUB_API_URL/repos/$GITHUB_REPOSITORY/commits/main")
+          if [ "$TIP" != "$GITHUB_SHA" ]; then echo "main has moved on from $GITHUB_SHA: not deploying an older commit"; exit 0; fi
+          "$HOSTLOAD" run --label wishing-star-ci-deploy --wait 3600 -- nice -n 15 zsh -c 'npm ci --no-audit --no-fund && tools/deploy/vps.sh "$GITHUB_SHA"'

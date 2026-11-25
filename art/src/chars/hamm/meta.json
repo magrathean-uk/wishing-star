@@ -1,0 +1,64 @@
+{
+  "id": "hamm",
+  "group": "home",
+  "tall": 1.2,
+  "w": 224,
+  "h": 230,
+  "footY": 222,
+  "px": 200,
+  "clips": {
+    "idle": {
+      "down": [
+        "idle_down_0.png",
+        "idle_down_1.png",
+        "idle_down_2.png",
+        "idle_down_3.png"
+      ]
+    },
+    "talk": {
+      "down": [
+        "talk_down_0.png",
+        "talk_down_1.png",
+        "talk_down_2.png",
+        "talk_down_3.png"
+      ]
+    },
+    "wave": {
+      "down": [
+        "wave_down_0.png",
+        "wave_down_1.png",
+        "wave_down_2.png"
+      ]
+    },
+    "hop": {
+      "down": [
+        "hop_down_0.png",
+        "hop_down_1.png",
+        "hop_down_2.png",
+        "hop_down_3.png"
+      ]
+    },
+    "cheer": {
+      "down": [
+        "cheer_down_0.png"
+      ]
+    }
+  },
+  "timing": {
+    "wave": {
+      "durs": [
+        0.16,
+        0.2,
+        0.2
+      ]
+    },
+    "idle": {
+      "durs": [
+        2.6,
+        0.5,
+        0.04,
+        0.06
+      ]
+    }
+  }
+}

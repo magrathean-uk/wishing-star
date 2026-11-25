@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cast rehearsal | Local review</title>
+  <style>
+    :root { color-scheme: light; font-family: ui-sans-serif, system-ui, -apple-system, sans-serif; color: #25292d; background: #f5f4f0; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    header { background: #273c36; color: #fff; padding: 21px max(24px, calc((100vw - 1500px) / 2)); }
+    .eyebrow { color: #bdd5c7; font-size: 11px; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+    h1 { margin: 5px 0 4px; font-size: 28px; line-height: 1.2; letter-spacing: -.025em; }
+    header p { margin: 0; color: #d7e5dc; font-size: 14px; }
+    #test-tag { display: none; position: fixed; z-index: 20; right: 12px; top: 10px; background: #ac2929; color: white; padding: 7px 10px; font-weight: 800; border-radius: 5px; }
+    main { max-width: 1548px; padding: 20px 24px 50px; margin: auto; }
+    .controls { display: flex; flex-wrap: wrap; align-items: end; gap: 12px; background: white; border: 1px solid #dedfda; border-radius: 12px; padding: 16px; }
+    .controls label { display: grid; gap: 5px; color: #454d49; font-size: 12px; font-weight: 750; }
+    input, select, button { font: inherit; color: #252d29; border: 1px solid #bac4bc; border-radius: 7px; background: #fff; min-height: 38px; padding: 7px 10px; }
+    input { width: 185px; }
+    select { max-width: 230px; }
+    button { cursor: pointer; font-weight: 700; }
+    button:hover { border-color: #416e56; background: #edf5ef; }
+    button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-visible, a:focus-visible { outline: 3px solid #d68a38; outline-offset: 2px; }
+    #play { background: #315f48; color: white; border-color: #315f48; min-width: 78px; }
+    #play:hover { background: #254c39; }
+    .playback { display: flex; gap: 6px; border: 0; margin: 0; padding: 0; min-inline-size: 0; }
+    .explain { margin: 14px 2px 8px; color: #515e55; font-size: 13px; line-height: 1.5; }
+    .sources { color: #4d5b53; font-size: 12px; overflow-wrap: anywhere; }
+    summary { cursor: pointer; font-weight: 750; }
+    .sources p { margin: 6px 0; }
+    #summary { margin: 22px 2px 11px; font-size: 14px; color: #526159; }
+    #error { color: #9b2828; font-weight: 700; white-space: pre-wrap; }
+    .cast { display: grid; gap: 14px; }
+    article { background: #fff; border: 1px solid #dedfda; border-radius: 12px; padding: 15px; min-width: 0; }
+    .card-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin-bottom: 11px; }
+    h2 { margin: 0; font-size: 18px; line-height: 1.3; }
+    .card-sub { color: #63736a; font-size: 12px; text-align: right; }
+    .lanes { display: grid; grid-template-columns: repeat(4, minmax(var(--lane-min, 145px), 1fr)); gap: 8px; overflow-x: auto; padding-bottom: 3px; }
+    .cell { min-width: 0; }
+    .cell h3 { margin: 0 0 6px; color: #35473c; font-size: 12px; font-weight: 750; }
+    .cell h3 span { color: #77847b; font-weight: 500; }
+    .picture { position: relative; overflow: hidden; border: 1px solid #c5d7bc; border-radius: 7px; background: linear-gradient(#dfebd7 0%, #d6e6ce 70%, #c2d9b6 70%, #c2d9b6 100%); }
+    canvas { width: 100%; display: block; }
+    .status { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; text-align: center; color: #4d5e50; padding: 12px; font-size: 12px; line-height: 1.45; }
+    .status:empty { display: none; }
+    .status.bad { color: #833f31; background: #f9ede5e8; font-weight: 650; }
+    .frame { color: #66736a; font-size: 11px; min-height: 28px; padding: 5px 2px 0; overflow-wrap: anywhere; }
+    .metadata { color: #536158; font-size: 12px; margin-top: 8px; overflow-wrap: anywhere; }
+    .metadata p { margin: 7px 0 3px; }
+    .metadata ul { padding-left: 19px; margin: 3px 0 8px; line-height: 1.6; }
+    a { color: #285f46; }
+    code { font-size: 11px; }
+    .empty { padding: 28px; border: 1px dashed #bac6bd; border-radius: 10px; color: #57645c; }
+    @media (max-width: 620px) { main { padding: 14px 12px 30px; } header { padding: 18px 14px; } .controls { gap: 10px; } input { width: 150px; } }
+  </style>
+  <script src="/cast-rehearsal.js" defer></script>
+</head>
+<body>
+  <div id="test-tag">Test run</div>
+  <header>
+    <div class="eyebrow">Private local review · not the game</div>
+    <h1>Cast rehearsal</h1>
+    <p>Original and candidate packed frames, side by side.</p>
+  </header>
+  <main>
+    <fieldset class="controls" aria-label="Rehearsal controls">
+      <label>Find a character <input id="search" type="search" placeholder="Type a character ID" autocomplete="off"></label>
+      <label>Character <select id="character"><option value="">All characters</option></select></label>
+      <label>Facing <select id="facing"><option value="mixed">Side walk / front talk</option><option value="down">Front</option><option value="side">Side</option><option value="up">Back</option></select></label>
+      <label>Candidate clips <select id="filter"><option value="all">All</option><option value="both">Walk and talk</option><option value="missing-walk">Missing walk</option><option value="missing-talk">Missing talk</option></select></label>
+      <label>Display size <select id="size"><option value="0.6666666667">Game at 1280 × 720</option><option value="0.75">Game at 1440 × 810</option><option value="1">Game at 1920 × 1080</option><option value="2">Inspect at 2× logical size</option></select></label>
+      <fieldset class="playback" aria-label="Animation controls">
+        <button id="play" type="button" aria-pressed="true">Pause</button>
+        <button id="advance" type="button">+125 ms</button>
+        <button id="reset" type="button">Reset</button>
+      </fieldset>
+    </fieldset>
+    <p class="explain">Each row shows walk and talk at the same moment. Missing clips or facings stay empty: no pose is substituted. Both sides use the current game’s frame timings and foot-contact mapping; this in-place preview does not simulate walking speed or speech pauses. The size uses each atlas’s recorded height and the world camera’s 1.25 zoom; an actor’s in-game height can override that record. Clip filters check all facings.</p>
+    <details class="sources"><summary>Source locations and how to read this</summary><div id="sources">Loading sources…</div><p>Open a row’s details for frame names, timing, page links and processed PNG links. PNG links are available only where the source frames exist. This rehearsal has no audio.</p></details>
+    <p id="summary" aria-live="polite">Loading the packed indexes…</p>
+    <p id="error" role="alert"></p>
+    <div id="cast" class="cast"></div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,113 @@
+{
+  "id": "bullseye",
+  "group": "home",
+  "tall": 1.8,
+  "w": 146,
+  "h": 161,
+  "footY": 156,
+  "px": 150,
+  "clips": {
+    "idle": {
+      "down": [
+        "idle_down_0.png",
+        "idle_down_1.png",
+        "idle_down_2.png",
+        "idle_down_3.png"
+      ],
+      "side": [
+        "idle_side_0.png",
+        "idle_side_1.png",
+        "idle_side_2.png",
+        "idle_side_3.png"
+      ],
+      "up": [
+        "idle_up_0.png",
+        "idle_up_1.png",
+        "idle_up_2.png",
+        "idle_up_3.png"
+      ]
+    },
+    "walk": {
+      "down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png",
+        "walk_down_3.png",
+        "walk_down_4.png",
+        "walk_down_5.png",
+        "walk_down_6.png",
+        "walk_down_7.png"
+      ],
+      "side": [
+        "walk_side_0.png",
+        "walk_side_1.png",
+        "walk_side_2.png",
+        "walk_side_3.png",
+        "walk_side_4.png",
+        "walk_side_5.png",
+        "walk_side_6.png",
+        "walk_side_7.png"
+      ],
+      "up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png",
+        "walk_up_3.png",
+        "walk_up_4.png",
+        "walk_up_5.png",
+        "walk_up_6.png",
+        "walk_up_7.png"
+      ]
+    },
+    "hop": {
+      "down": [
+        "hop_down_0.png",
+        "hop_down_1.png",
+        "hop_down_2.png",
+        "hop_down_3.png"
+      ],
+      "side": [
+        "hop_side_0.png",
+        "hop_side_1.png",
+        "hop_side_2.png",
+        "hop_side_3.png"
+      ],
+      "up": [
+        "hop_up_0.png",
+        "hop_up_1.png",
+        "hop_up_2.png"
+      ]
+    },
+    "look": {
+      "up": [
+        "look_up_0.png"
+      ]
+    }
+  },
+  "timing": {
+    "walk": {
+      "durs": [
+        0.076,
+        0.063,
+        0.057,
+        0.063,
+        0.076,
+        0.063,
+        0.057,
+        0.063
+      ],
+      "step": [
+        0,
+        4
+      ]
+    },
+    "idle": {
+      "durs": [
+        1.8,
+        0.8,
+        0.04,
+        0.07
+      ]
+    }
+  }
+}

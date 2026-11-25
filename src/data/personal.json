@@ -1,0 +1,160 @@
+{
+  "_note": "Stand-in file. Put your own names, letters and notes here; the game reads it at start.",
+  "greeting1": "Boldog Karácsonyt!",
+  "greeting2": "Apától",
+  "credits": "Made with love.",
+  "names": {
+    "amelia": "Amelia",
+    "koala": "Koala",
+    "mum": "Mum",
+    "dad": "Dad",
+    "granny": "Granny",
+    "nanny": "Nanny",
+    "grandad": "Grandad",
+    "aunty": "Aunty",
+    "teacher": "Teacher",
+    "robin": "Robin",
+    "sam": "Sam",
+    "alex": "Alex",
+    "charlie": "Charlie",
+    "trail_note1": "A note from Dad.",
+    "trail_note2": "A note from Dad.",
+    "trail_note3": "A note from Dad.",
+    "trail_note4": "A note from Dad.",
+    "trail_note5": "A note from Dad."
+  },
+  "letters": {
+    "dad_1": {
+      "from": "Someone who loves you",
+      "pages": [
+        "Write your own words here (letters dad_1 pages 1).",
+        "Write your own words here (letters dad_1 pages 2).",
+        "Write your own words here (letters dad_1 pages 3).",
+        "Write your own words here (letters dad_1 pages 4)."
+      ]
+    },
+    "mum_1": {
+      "from": "Someone who loves you",
+      "pages": [
+        "Write your own words here (letters mum_1 pages 1).",
+        "Write your own words here (letters mum_1 pages 2).",
+        "Write your own words here (letters mum_1 pages 3)."
+      ]
+    },
+    "granny_1": {
+      "from": "Someone who loves you",
+      "pages": [
+        "Write your own words here (letters granny_1 pages 1).",
+        "Write your own words here (letters granny_1 pages 2).",
+        "Write your own words here (letters granny_1 pages 3)."
+      ]
+    },
+    "nanny_1": {
+      "from": "Someone who loves you",
+      "pages": [
+        "Write your own words here (letters nanny_1 pages 1).",
+        "Write your own words here (letters nanny_1 pages 2).",
+        "Write your own words here (letters nanny_1 pages 3)."
+      ]
+    },
+    "grandad_1": {
+      "from": "Someone who loves you",
+      "pages": [
+        "Write your own words here (letters grandad_1 pages 1).",
+        "Write your own words here (letters grandad_1 pages 2).",
+        "Write your own words here (letters grandad_1 pages 3)."
+      ]
+    },
+    "aunty_1": {
+      "from": "Someone who loves you",
+      "pages": [
+        "Write your own words here (letters aunty_1 pages 1).",
+        "Write your own words here (letters aunty_1 pages 2).",
+        "Write your own words here (letters aunty_1 pages 3)."
+      ]
+    },
+    "friends_1": {
+      "from": "Someone who loves you",
+      "pages": [
+        "Write your own words here (letters friends_1 pages 1).",
+        "Write your own words here (letters friends_1 pages 2).",
+        "Write your own words here (letters friends_1 pages 3)."
+      ]
+    },
+    "teacher_1": {
+      "from": "Someone who loves you",
+      "pages": [
+        "Write your own words here (letters teacher_1 pages 1).",
+        "Write your own words here (letters teacher_1 pages 2).",
+        "Write your own words here (letters teacher_1 pages 3)."
+      ]
+    },
+    "dad_2": {
+      "from": "Someone who loves you",
+      "pages": [
+        "Write your own words here (letters dad_2 pages 1).",
+        "Write your own words here (letters dad_2 pages 2).",
+        "Write your own words here (letters dad_2 pages 3).",
+        "Write your own words here (letters dad_2 pages 4)."
+      ]
+    },
+    "dad_finale": {
+      "from": "Someone who loves you",
+      "pages": [
+        "Write your own words here (letters dad_finale pages 1).",
+        "Write your own words here (letters dad_finale pages 2).",
+        "Write your own words here (letters dad_finale pages 3).",
+        "Write your own words here (letters dad_finale pages 4).",
+        "Write your own words here (letters dad_finale pages 5)."
+      ]
+    },
+    "dad_stickers": {
+      "from": "Someone who loves you",
+      "pages": [
+        "Write your own words here (letters dad_stickers pages 1).",
+        "Write your own words here (letters dad_stickers pages 2).",
+        "Write your own words here (letters dad_stickers pages 3)."
+      ]
+    }
+  },
+  "bottles": {
+    "bottle1": "Write your own words here (bottles bottle1).",
+    "bottle2": "Write your own words here (bottles bottle2).",
+    "bottle3": "Write your own words here (bottles bottle3).",
+    "bottle4": "Write your own words here (bottles bottle4).",
+    "bottle5": "Write your own words here (bottles bottle5).",
+    "bottle6": "Write your own words here (bottles bottle6).",
+    "bottle7": "Write your own words here (bottles bottle7).",
+    "bottle8": "Write your own words here (bottles bottle8).",
+    "bottle9": "Write your own words here (bottles bottle9).",
+    "bottle10": "Write your own words here (bottles bottle10).",
+    "bottle7b": "Write your own words here (bottles bottle7b)."
+  },
+  "december": {
+    "1": "Write your own words here (december 1).",
+    "2": "Write your own words here (december 2).",
+    "3": "Write your own words here (december 3).",
+    "4": "Write your own words here (december 4).",
+    "5": "Write your own words here (december 5).",
+    "6": "Write your own words here (december 6).",
+    "7": "Write your own words here (december 7).",
+    "8": "Write your own words here (december 8).",
+    "9": "Write your own words here (december 9).",
+    "10": "Write your own words here (december 10).",
+    "11": "Write your own words here (december 11).",
+    "12": "Write your own words here (december 12).",
+    "13": "Write your own words here (december 13).",
+    "14": "Write your own words here (december 14).",
+    "15": "Write your own words here (december 15).",
+    "16": "Write your own words here (december 16).",
+    "17": "Write your own words here (december 17).",
+    "18": "Write your own words here (december 18).",
+    "19": "Write your own words here (december 19).",
+    "20": "Write your own words here (december 20).",
+    "21": "Write your own words here (december 21).",
+    "22": "Write your own words here (december 22).",
+    "23": "Write your own words here (december 23).",
+    "24": "Write your own words here (december 24).",
+    "25": "Write your own words here (december 25)."
+  }
+}

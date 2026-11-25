@@ -1,0 +1,68 @@
+{
+  "id": "alien",
+  "group": "home",
+  "tall": 1.3,
+  "w": 94,
+  "h": 117,
+  "footY": 114,
+  "px": 108,
+  "clips": {
+    "idle": {
+      "down": [
+        "idle_down_0.png",
+        "idle_down_1.png",
+        "idle_down_2.png",
+        "idle_down_3.png"
+      ]
+    },
+    "talk": {
+      "down": [
+        "performance_talk_down_352afa4efdea_0.png",
+        "performance_talk_down_352afa4efdea_1.png",
+        "performance_talk_down_352afa4efdea_2.png",
+        "performance_talk_down_352afa4efdea_1.png"
+      ]
+    },
+    "wave": {
+      "down": [
+        "wave_down_0.png",
+        "wave_down_1.png",
+        "wave_down_2.png"
+      ]
+    },
+    "cheer": {
+      "down": [
+        "cheer_down_0.png",
+        "cheer_down_1.png"
+      ]
+    },
+    "laugh": {
+      "down": [
+        "laugh_down_0.png",
+        "laugh_down_1.png"
+      ]
+    },
+    "surprised": {
+      "down": [
+        "surprised_down_0.png"
+      ]
+    }
+  },
+  "timing": {
+    "wave": {
+      "durs": [
+        0.16,
+        0.2,
+        0.2
+      ]
+    },
+    "idle": {
+      "durs": [
+        2.6,
+        0.5,
+        0.04,
+        0.06
+      ]
+    }
+  }
+}

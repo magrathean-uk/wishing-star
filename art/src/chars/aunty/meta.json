@@ -1,0 +1,60 @@
+{
+  "id": "aunty",
+  "group": "square",
+  "tall": 1.9,
+  "w": 140,
+  "h": 165,
+  "footY": 162,
+  "px": 158,
+  "clips": {
+    "idle": {
+      "down": [
+        "idle_down_0.png",
+        "idle_down_1.png",
+        "idle_down_2.png",
+        "idle_down_3.png"
+      ]
+    },
+    "talk": {
+      "down": [
+        "talk_down_0.png",
+        "talk_down_1.png",
+        "talk_down_2.png",
+        "talk_down_3.png"
+      ]
+    },
+    "wave": {
+      "down": [
+        "wave_down_0.png",
+        "wave_down_1.png",
+        "wave_down_2.png"
+      ]
+    },
+    "cheer": {
+      "down": [
+        "cheer_down_0.png",
+        "cheer_down_1.png"
+      ]
+    },
+    "laugh": {
+      "down": [
+        "laugh_down_0.png",
+        "laugh_down_1.png"
+      ]
+    },
+    "surprised": {
+      "down": [
+        "surprised_down_0.png"
+      ]
+    }
+  },
+  "timing": {
+    "wave": {
+      "durs": [
+        0.16,
+        0.2,
+        0.2
+      ]
+    }
+  }
+}

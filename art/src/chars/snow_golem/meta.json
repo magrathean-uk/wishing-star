@@ -1,0 +1,46 @@
+{
+  "id": "snow_golem",
+  "group": "home",
+  "tall": 1.9,
+  "w": 144,
+  "h": 168,
+  "footY": 165,
+  "px": 158,
+  "clips": {
+    "idle": {
+      "down": [
+        "idle_down_0.png",
+        "idle_down_1.png"
+      ]
+    },
+    "talk": {
+      "down": [
+        "performance_talk_down_bf0aa7370c55_0.png",
+        "performance_talk_down_bf0aa7370c55_1.png",
+        "performance_talk_down_bf0aa7370c55_2.png",
+        "performance_talk_down_bf0aa7370c55_1.png"
+      ]
+    },
+    "wave": {
+      "down": [
+        "wave_down_0.png",
+        "wave_down_1.png"
+      ]
+    },
+    "cheer": {
+      "down": [
+        "cheer_down_0.png"
+      ]
+    },
+    "laugh": {
+      "down": [
+        "laugh_down_0.png"
+      ]
+    },
+    "surprised": {
+      "down": [
+        "surprised_down_0.png"
+      ]
+    }
+  }
+}

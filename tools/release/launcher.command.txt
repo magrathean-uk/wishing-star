@@ -1,0 +1,47 @@
+#!/bin/zsh
+# Play Amelia: starts the local game server and opens the game in the default browser.
+cd "${0:A:h}" || exit 1
+
+LOG="$(mktemp -t play-amelia)"
+./play-server >"$LOG" 2>&1 &
+SERVER=$!
+
+stop_server() {
+  kill "$SERVER" 2>/dev/null
+  wait "$SERVER" 2>/dev/null
+  rm -f "$LOG"
+}
+trap 'stop_server; exit 0' INT TERM HUP
+trap stop_server EXIT
+
+ready=0
+for i in {1..50}; do
+  if ! kill -0 "$SERVER" 2>/dev/null; then
+    break
+  fi
+  if grep -q 'is running at' "$LOG" 2>/dev/null; then
+    ready=1
+    break
+  fi
+  sleep 0.2
+done
+
+if [[ $ready -ne 1 ]]; then
+  echo
+  if grep -q 'Close the other Play Amelia' "$LOG" 2>/dev/null; then
+    echo "Close the other Play Amelia window and try again"
+  else
+    echo "Play Amelia could not start."
+    cat "$LOG"
+  fi
+  echo
+  echo "You can close this window now."
+  exit 1
+fi
+
+open "http://127.0.0.1:4173/"
+echo
+echo "Amelia's game is open in your browser."
+echo "To stop it, close this window."
+echo
+wait "$SERVER"

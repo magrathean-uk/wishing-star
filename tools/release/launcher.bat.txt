@@ -1,0 +1,4 @@
+@echo off
+title Play Amelia - leave this window open
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0play-server.ps1"
+if errorlevel 1 pause

@@ -1,0 +1,76 @@
+{
+  "id": "cakey",
+  "group": "square",
+  "tall": 1.2,
+  "w": 98,
+  "h": 108,
+  "footY": 105,
+  "px": 100,
+  "clips": {
+    "idle": {
+      "down": [
+        "idle_down_0.png",
+        "idle_down_1.png",
+        "idle_down_2.png",
+        "idle_down_3.png"
+      ]
+    },
+    "talk": {
+      "down": [
+        "performance_talk_down_2250ae2a2f72_0.png",
+        "performance_talk_down_2250ae2a2f72_1.png",
+        "performance_talk_down_2250ae2a2f72_2.png",
+        "performance_talk_down_2250ae2a2f72_1.png"
+      ]
+    },
+    "wave": {
+      "down": [
+        "wave_down_0.png",
+        "wave_down_1.png",
+        "wave_down_2.png"
+      ]
+    },
+    "cheer": {
+      "down": [
+        "cheer_down_0.png",
+        "cheer_down_1.png"
+      ]
+    },
+    "laugh": {
+      "down": [
+        "laugh_down_0.png",
+        "laugh_down_1.png"
+      ]
+    },
+    "surprised": {
+      "down": [
+        "surprised_down_0.png"
+      ]
+    }
+  },
+  "timing": {
+    "wave": {
+      "durs": [
+        0.16,
+        0.2,
+        0.2
+      ]
+    },
+    "idle": {
+      "durs": [
+        0.45,
+        0.45,
+        0.05,
+        0.08
+      ]
+    },
+    "talk": {
+      "durs": [
+        0.1,
+        0.12,
+        0.14,
+        0.12
+      ]
+    }
+  }
+}

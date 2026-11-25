@@ -1,0 +1,1694 @@
+{
+ "sets": {
+  "alien": {
+   "page": "alien_talk-0",
+   "w": 234,
+   "h": 292,
+   "footY": 289,
+   "px": 279,
+   "clips": {
+    "idle": {
+     "down": [
+      "alien/idle_down_0",
+      "alien/idle_down_1",
+      "alien/idle_down_2",
+      "alien/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "alien/talk_down_0",
+      "alien/talk_down_1",
+      "alien/talk_down_2",
+      "alien/talk_down_3"
+     ]
+    }
+   }
+  },
+  "amelia": {
+   "page": "amelia_talk-0",
+   "w": 262,
+   "h": 309,
+   "footY": 303,
+   "px": 287,
+   "clips": {
+    "idle": {
+     "down": [
+      "amelia/idle_down_0",
+      "amelia/idle_down_1",
+      "amelia/idle_down_2",
+      "amelia/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "amelia/talk_down_0",
+      "amelia/talk_down_1",
+      "amelia/talk_down_2",
+      "amelia/talk_down_3"
+     ]
+    }
+   }
+  },
+  "aunty": {
+   "page": "aunty_talk-0",
+   "w": 258,
+   "h": 306,
+   "footY": 303,
+   "px": 298,
+   "clips": {
+    "idle": {
+     "down": [
+      "aunty/idle_down_0",
+      "aunty/idle_down_1",
+      "aunty/idle_down_2",
+      "aunty/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "aunty/talk_down_0",
+      "aunty/talk_down_1",
+      "aunty/talk_down_2",
+      "aunty/talk_down_3"
+     ]
+    }
+   }
+  },
+  "charlie": {
+   "page": "charlie_talk-0",
+   "w": 184,
+   "h": 246,
+   "footY": 240,
+   "px": 227,
+   "clips": {
+    "idle": {
+     "down": [
+      "charlie/idle_down_0",
+      "charlie/idle_down_1",
+      "charlie/idle_down_2",
+      "charlie/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "charlie/talk_down_0",
+      "charlie/talk_down_1",
+      "charlie/talk_down_2",
+      "charlie/talk_down_3"
+     ]
+    }
+   }
+  },
+  "baku": {
+   "page": "baku_talk-0",
+   "w": 236,
+   "h": 243,
+   "footY": 239,
+   "px": 219,
+   "clips": {
+    "idle": {
+     "down": [
+      "baku/idle_down_0",
+      "baku/idle_down_1",
+      "baku/idle_down_2",
+      "baku/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "baku/talk_down_0",
+      "baku/talk_down_1",
+      "baku/talk_down_2",
+      "baku/talk_down_3"
+     ]
+    }
+   }
+  },
+  "bandit": {
+   "page": "bandit_talk-0",
+   "w": 190,
+   "h": 247,
+   "footY": 243,
+   "px": 235,
+   "clips": {
+    "idle": {
+     "down": [
+      "bandit/idle_down_0",
+      "bandit/idle_down_1",
+      "bandit/idle_down_2",
+      "bandit/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "bandit/talk_down_0",
+      "bandit/talk_down_1",
+      "bandit/talk_down_2",
+      "bandit/talk_down_3"
+     ]
+    }
+   }
+  },
+  "bing": {
+   "page": "bing_talk-0",
+   "w": 268,
+   "h": 302,
+   "footY": 295,
+   "px": 276,
+   "clips": {
+    "idle": {
+     "down": [
+      "bing/idle_down_0",
+      "bing/idle_down_1",
+      "bing/idle_down_2",
+      "bing/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "bing/talk_down_0",
+      "bing/talk_down_1",
+      "bing/talk_down_2",
+      "bing/talk_down_3"
+     ]
+    }
+   }
+  },
+  "bingo": {
+   "page": "bingo_talk-0",
+   "w": 214,
+   "h": 248,
+   "footY": 244,
+   "px": 234,
+   "clips": {
+    "idle": {
+     "down": [
+      "bingo/idle_down_0",
+      "bingo/idle_down_1",
+      "bingo/idle_down_2",
+      "bingo/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "bingo/talk_down_0",
+      "bingo/talk_down_1",
+      "bingo/talk_down_2",
+      "bingo/talk_down_3"
+     ]
+    }
+   }
+  },
+  "bluey": {
+   "page": "bluey_talk-0",
+   "w": 270,
+   "h": 310,
+   "footY": 305,
+   "px": 287,
+   "clips": {
+    "idle": {
+     "down": [
+      "bluey/idle_down_0",
+      "bluey/idle_down_1",
+      "bluey/idle_down_2",
+      "bluey/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "bluey/talk_down_0",
+      "bluey/talk_down_1",
+      "bluey/talk_down_2",
+      "bluey/talk_down_3"
+     ]
+    }
+   }
+  },
+  "bo_peep": {
+   "page": "bo_peep_talk-0",
+   "w": 182,
+   "h": 251,
+   "footY": 247,
+   "px": 237,
+   "clips": {
+    "idle": {
+     "down": [
+      "bo_peep/idle_down_0",
+      "bo_peep/idle_down_1",
+      "bo_peep/idle_down_2",
+      "bo_peep/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "bo_peep/talk_down_0",
+      "bo_peep/talk_down_1",
+      "bo_peep/talk_down_2",
+      "bo_peep/talk_down_3"
+     ]
+    }
+   }
+  },
+  "bob": {
+   "page": "bob_talk-0",
+   "w": 324,
+   "h": 305,
+   "footY": 296,
+   "px": 287,
+   "clips": {
+    "idle": {
+     "down": [
+      "bob/idle_down_0",
+      "bob/idle_down_1"
+     ]
+    },
+    "talk": {
+     "down": [
+      "bob/talk_down_0",
+      "bob/talk_down_1"
+     ]
+    }
+   }
+  },
+  "bullseye": {
+   "page": "bullseye_talk-0",
+   "w": 284,
+   "h": 312,
+   "footY": 305,
+   "px": 296,
+   "clips": {
+    "idle": {
+     "down": [
+      "bullseye/idle_down_0",
+      "bullseye/idle_down_1",
+      "bullseye/idle_down_2",
+      "bullseye/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": []
+    }
+   }
+  },
+  "buzz": {
+   "page": "buzz_talk-0",
+   "w": 320,
+   "h": 310,
+   "footY": 301,
+   "px": 291,
+   "clips": {
+    "idle": {
+     "down": [
+      "buzz/idle_down_0",
+      "buzz/idle_down_1"
+     ]
+    },
+    "talk": {
+     "down": [
+      "buzz/talk_down_0",
+      "buzz/talk_down_1"
+     ]
+    }
+   }
+  },
+  "cakey": {
+   "page": "cakey_talk-0",
+   "w": 248,
+   "h": 286,
+   "footY": 283,
+   "px": 274,
+   "clips": {
+    "idle": {
+     "down": [
+      "cakey/idle_down_0",
+      "cakey/idle_down_1",
+      "cakey/idle_down_2",
+      "cakey/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "cakey/talk_down_0",
+      "cakey/talk_down_1",
+      "cakey/talk_down_2",
+      "cakey/talk_down_3"
+     ]
+    }
+   }
+  },
+  "cat": {
+   "page": "cat_talk-0",
+   "w": 328,
+   "h": 308,
+   "footY": 302,
+   "px": 252,
+   "clips": {
+    "idle": {
+     "down": [
+      "cat/idle_down_0",
+      "cat/idle_down_1",
+      "cat/idle_down_2",
+      "cat/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": []
+    }
+   }
+  },
+  "chicken": {
+   "page": "chicken_talk-0",
+   "w": 254,
+   "h": 295,
+   "footY": 289,
+   "px": 266,
+   "clips": {
+    "idle": {
+     "down": [
+      "chicken/idle_down_0",
+      "chicken/idle_down_1",
+      "chicken/idle_down_2",
+      "chicken/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": []
+    }
+   }
+  },
+  "chilli": {
+   "page": "chilli_talk-0",
+   "w": 184,
+   "h": 249,
+   "footY": 245,
+   "px": 234,
+   "clips": {
+    "idle": {
+     "down": [
+      "chilli/idle_down_0",
+      "chilli/idle_down_1",
+      "chilli/idle_down_2",
+      "chilli/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "chilli/talk_down_0",
+      "chilli/talk_down_1",
+      "chilli/talk_down_2",
+      "chilli/talk_down_3"
+     ]
+    }
+   }
+  },
+  "coco": {
+   "page": "coco_talk-0",
+   "w": 162,
+   "h": 246,
+   "footY": 241,
+   "px": 230,
+   "clips": {
+    "idle": {
+     "down": [
+      "coco/idle_down_0",
+      "coco/idle_down_1",
+      "coco/idle_down_2",
+      "coco/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "coco/talk_down_0",
+      "coco/talk_down_1",
+      "coco/talk_down_2",
+      "coco/talk_down_3"
+     ]
+    }
+   }
+  },
+  "cow": {
+   "page": "cow_talk-0",
+   "w": 398,
+   "h": 306,
+   "footY": 301,
+   "px": 262,
+   "clips": {
+    "idle": {
+     "down": [
+      "cow/idle_down_0",
+      "cow/idle_down_1",
+      "cow/idle_down_2",
+      "cow/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": []
+    }
+   }
+  },
+  "creeper": {
+   "page": "creeper_talk-0",
+   "w": 236,
+   "h": 302,
+   "footY": 289,
+   "px": 256,
+   "clips": {
+    "idle": {
+     "down": [
+      "creeper/idle_down_0",
+      "creeper/idle_down_1",
+      "creeper/idle_down_2",
+      "creeper/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": []
+    }
+   }
+  },
+  "dad": {
+   "page": "dad_talk-0",
+   "w": 190,
+   "h": 247,
+   "footY": 242,
+   "px": 231,
+   "clips": {
+    "idle": {
+     "down": [
+      "dad/idle_down_0",
+      "dad/idle_down_1",
+      "dad/idle_down_2",
+      "dad/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "dad/talk_down_0",
+      "dad/talk_down_1",
+      "dad/talk_down_2",
+      "dad/talk_down_3"
+     ]
+    }
+   }
+  },
+  "daddy_pig": {
+   "page": "daddy_pig_talk-0",
+   "w": 228,
+   "h": 255,
+   "footY": 251,
+   "px": 231,
+   "clips": {
+    "idle": {
+     "down": [
+      "daddy_pig/idle_down_0",
+      "daddy_pig/idle_down_1",
+      "daddy_pig/idle_down_2",
+      "daddy_pig/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "daddy_pig/talk_down_0",
+      "daddy_pig/talk_down_1",
+      "daddy_pig/talk_down_2",
+      "daddy_pig/talk_down_3"
+     ]
+    }
+   }
+  },
+  "dj_catnip": {
+   "page": "dj_catnip_talk-0",
+   "w": 228,
+   "h": 303,
+   "footY": 300,
+   "px": 292,
+   "clips": {
+    "idle": {
+     "down": [
+      "dj_catnip/idle_down_0",
+      "dj_catnip/idle_down_1",
+      "dj_catnip/idle_down_2",
+      "dj_catnip/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "dj_catnip/talk_down_0",
+      "dj_catnip/talk_down_1",
+      "dj_catnip/talk_down_2",
+      "dj_catnip/talk_down_3"
+     ]
+    }
+   }
+  },
+  "duck": {
+   "page": "duck_talk-0",
+   "w": 268,
+   "h": 307,
+   "footY": 302,
+   "px": 288,
+   "clips": {
+    "idle": {
+     "down": [
+      "duck/idle_down_0",
+      "duck/idle_down_1",
+      "duck/idle_down_2",
+      "duck/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": []
+    }
+   }
+  },
+  "flop": {
+   "page": "flop_talk-0",
+   "w": 294,
+   "h": 313,
+   "footY": 307,
+   "px": 289,
+   "clips": {
+    "idle": {
+     "down": [
+      "flop/idle_down_0",
+      "flop/idle_down_1",
+      "flop/idle_down_2",
+      "flop/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "flop/talk_down_0",
+      "flop/talk_down_1",
+      "flop/talk_down_2",
+      "flop/talk_down_3"
+     ]
+    }
+   }
+  },
+  "forky": {
+   "page": "forky_talk-0",
+   "w": 344,
+   "h": 383,
+   "footY": 377,
+   "px": 371,
+   "clips": {
+    "idle": {
+     "down": [
+      "forky/idle_down_0",
+      "forky/idle_down_1"
+     ]
+    },
+    "talk": {
+     "down": [
+      "forky/talk_down_0",
+      "forky/talk_down_1"
+     ]
+    }
+   }
+  },
+  "gabby": {
+   "page": "gabby_talk-0",
+   "w": 288,
+   "h": 310,
+   "footY": 304,
+   "px": 293,
+   "clips": {
+    "idle": {
+     "down": [
+      "gabby/idle_down_0",
+      "gabby/idle_down_1",
+      "gabby/idle_down_2",
+      "gabby/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "gabby/talk_down_0",
+      "gabby/talk_down_1",
+      "gabby/talk_down_2",
+      "gabby/talk_down_3"
+     ]
+    }
+   }
+  },
+  "george": {
+   "page": "george_talk-0",
+   "w": 246,
+   "h": 248,
+   "footY": 244,
+   "px": 232,
+   "clips": {
+    "idle": {
+     "down": [
+      "george/idle_down_0",
+      "george/idle_down_1",
+      "george/idle_down_2",
+      "george/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "george/talk_down_0",
+      "george/talk_down_1",
+      "george/talk_down_2",
+      "george/talk_down_3"
+     ]
+    }
+   }
+  },
+  "grandad": {
+   "page": "grandad_talk-0",
+   "w": 198,
+   "h": 243,
+   "footY": 239,
+   "px": 225,
+   "clips": {
+    "idle": {
+     "down": [
+      "grandad/idle_down_0",
+      "grandad/idle_down_1",
+      "grandad/idle_down_2",
+      "grandad/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "grandad/talk_down_0",
+      "grandad/talk_down_1",
+      "grandad/talk_down_2",
+      "grandad/talk_down_3"
+     ]
+    }
+   }
+  },
+  "grandad_xmas": {
+   "page": "grandad_xmas_talk-0",
+   "w": 178,
+   "h": 251,
+   "footY": 247,
+   "px": 233,
+   "clips": {
+    "idle": {
+     "down": [
+      "grandad_xmas/idle_down_0",
+      "grandad_xmas/idle_down_1",
+      "grandad_xmas/idle_down_2",
+      "grandad_xmas/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "grandad_xmas/talk_down_0",
+      "grandad_xmas/talk_down_1",
+      "grandad_xmas/talk_down_2",
+      "grandad_xmas/talk_down_3"
+     ]
+    }
+   }
+  },
+  "granny": {
+   "page": "granny_talk-0",
+   "w": 186,
+   "h": 251,
+   "footY": 247,
+   "px": 230,
+   "clips": {
+    "idle": {
+     "down": [
+      "granny/idle_down_0",
+      "granny/idle_down_1",
+      "granny/idle_down_2",
+      "granny/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "granny/talk_down_0",
+      "granny/talk_down_1",
+      "granny/talk_down_2",
+      "granny/talk_down_3"
+     ]
+    }
+   }
+  },
+  "hello_kitty": {
+   "page": "hello_kitty_talk-0",
+   "w": 278,
+   "h": 303,
+   "footY": 296,
+   "px": 274,
+   "clips": {
+    "idle": {
+     "down": [
+      "hello_kitty/idle_down_0",
+      "hello_kitty/idle_down_1",
+      "hello_kitty/idle_down_2",
+      "hello_kitty/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "hello_kitty/talk_down_0",
+      "hello_kitty/talk_down_1",
+      "hello_kitty/talk_down_2",
+      "hello_kitty/talk_down_3"
+     ]
+    }
+   }
+  },
+  "jessie": {
+   "page": "jessie_talk-0",
+   "w": 328,
+   "h": 319,
+   "footY": 312,
+   "px": 294,
+   "clips": {
+    "idle": {
+     "down": [
+      "jessie/idle_down_0",
+      "jessie/idle_down_1",
+      "jessie/idle_down_2",
+      "jessie/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "jessie/talk_down_0",
+      "jessie/talk_down_1",
+      "jessie/talk_down_2",
+      "jessie/talk_down_3"
+     ]
+    }
+   }
+  },
+  "joey": {
+   "page": "joey_talk-0",
+   "w": 254,
+   "h": 291,
+   "footY": 286,
+   "px": 260,
+   "clips": {
+    "idle": {
+     "down": [
+      "joey/idle_down_0",
+      "joey/idle_down_1",
+      "joey/idle_down_2",
+      "joey/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": []
+    }
+   }
+  },
+  "sam": {
+   "page": "sam_talk-0",
+   "w": 180,
+   "h": 243,
+   "footY": 239,
+   "px": 230,
+   "clips": {
+    "idle": {
+     "down": [
+      "sam/idle_down_0",
+      "sam/idle_down_1",
+      "sam/idle_down_2",
+      "sam/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "sam/talk_down_0",
+      "sam/talk_down_1",
+      "sam/talk_down_2",
+      "sam/talk_down_3"
+     ]
+    }
+   }
+  },
+  "kitty_fairy": {
+   "page": "kitty_fairy_talk-0",
+   "w": 264,
+   "h": 298,
+   "footY": 294,
+   "px": 286,
+   "clips": {
+    "idle": {
+     "down": [
+      "kitty_fairy/idle_down_0",
+      "kitty_fairy/idle_down_1",
+      "kitty_fairy/idle_down_2",
+      "kitty_fairy/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "kitty_fairy/talk_down_0",
+      "kitty_fairy/talk_down_1",
+      "kitty_fairy/talk_down_2",
+      "kitty_fairy/talk_down_3"
+     ]
+    }
+   }
+  },
+  "koala": {
+   "page": "koala_talk-0",
+   "w": 312,
+   "h": 294,
+   "footY": 290,
+   "px": 265,
+   "clips": {
+    "idle": {
+     "down": [
+      "koala/idle_down_0",
+      "koala/idle_down_1",
+      "koala/idle_down_2",
+      "koala/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "koala/talk_down_0",
+      "koala/talk_down_1",
+      "koala/talk_down_2",
+      "koala/talk_down_3"
+     ]
+    }
+   }
+  },
+  "kuromi": {
+   "page": "kuromi_talk-0",
+   "w": 320,
+   "h": 308,
+   "footY": 302,
+   "px": 286,
+   "clips": {
+    "idle": {
+     "down": [
+      "kuromi/idle_down_0",
+      "kuromi/idle_down_1",
+      "kuromi/idle_down_2",
+      "kuromi/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "kuromi/talk_down_0",
+      "kuromi/talk_down_1",
+      "kuromi/talk_down_2",
+      "kuromi/talk_down_3"
+     ]
+    }
+   }
+  },
+  "llama": {
+   "page": "llama_talk-0",
+   "w": 246,
+   "h": 294,
+   "footY": 289,
+   "px": 275,
+   "clips": {
+    "idle": {
+     "down": [
+      "llama/idle_down_0",
+      "llama/idle_down_1",
+      "llama/idle_down_2",
+      "llama/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": []
+    }
+   }
+  },
+  "mama_koala": {
+   "page": "mama_koala_talk-0",
+   "w": 206,
+   "h": 242,
+   "footY": 238,
+   "px": 222,
+   "clips": {
+    "idle": {
+     "down": [
+      "mama_koala/idle_down_0",
+      "mama_koala/idle_down_1",
+      "mama_koala/idle_down_2",
+      "mama_koala/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "mama_koala/talk_down_0",
+      "mama_koala/talk_down_1",
+      "mama_koala/talk_down_2",
+      "mama_koala/talk_down_3"
+     ]
+    }
+   }
+  },
+  "mercat": {
+   "page": "mercat_talk-0",
+   "w": 176,
+   "h": 284,
+   "footY": 280,
+   "px": 272,
+   "clips": {
+    "idle": {
+     "down": [
+      "mercat/idle_down_0",
+      "mercat/idle_down_1",
+      "mercat/idle_down_2",
+      "mercat/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "mercat/talk_down_0",
+      "mercat/talk_down_1",
+      "mercat/talk_down_2",
+      "mercat/talk_down_3"
+     ]
+    }
+   }
+  },
+  "mimmy": {
+   "page": "mimmy_talk-0",
+   "w": 184,
+   "h": 241,
+   "footY": 237,
+   "px": 221,
+   "clips": {
+    "idle": {
+     "down": [
+      "mimmy/idle_down_0",
+      "mimmy/idle_down_1",
+      "mimmy/idle_down_2",
+      "mimmy/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "mimmy/talk_down_0",
+      "mimmy/talk_down_1",
+      "mimmy/talk_down_2",
+      "mimmy/talk_down_3"
+     ]
+    }
+   }
+  },
+  "minion_d": {
+   "page": "minion_d_talk-0",
+   "w": 298,
+   "h": 305,
+   "footY": 300,
+   "px": 287,
+   "clips": {
+    "idle": {
+     "down": [
+      "minion_d/idle_down_0",
+      "minion_d/idle_down_1"
+     ]
+    },
+    "talk": {
+     "down": [
+      "minion_d/talk_down_0",
+      "minion_d/talk_down_1"
+     ]
+    }
+   }
+  },
+  "minion_e": {
+   "page": "minion_e_talk-0",
+   "w": 264,
+   "h": 305,
+   "footY": 301,
+   "px": 290,
+   "clips": {
+    "idle": {
+     "down": [
+      "minion_e/idle_down_0",
+      "minion_e/idle_down_1"
+     ]
+    },
+    "talk": {
+     "down": [
+      "minion_e/talk_down_0",
+      "minion_e/talk_down_1"
+     ]
+    }
+   }
+  },
+  "mira": {
+   "page": "mira_talk-0",
+   "w": 234,
+   "h": 302,
+   "footY": 299,
+   "px": 290,
+   "clips": {
+    "idle": {
+     "down": [
+      "mira/idle_down_0",
+      "mira/idle_down_1"
+     ]
+    },
+    "talk": {
+     "down": [
+      "mira/talk_down_0",
+      "mira/talk_down_1"
+     ]
+    }
+   }
+  },
+  "mum": {
+   "page": "mum_talk-0",
+   "w": 172,
+   "h": 248,
+   "footY": 244,
+   "px": 230,
+   "clips": {
+    "idle": {
+     "down": [
+      "mum/idle_down_0",
+      "mum/idle_down_1",
+      "mum/idle_down_2",
+      "mum/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "mum/talk_down_0",
+      "mum/talk_down_1",
+      "mum/talk_down_2",
+      "mum/talk_down_3"
+     ]
+    }
+   }
+  },
+  "mummy_pig": {
+   "page": "mummy_pig_talk-0",
+   "w": 210,
+   "h": 244,
+   "footY": 241,
+   "px": 219,
+   "clips": {
+    "idle": {
+     "down": [
+      "mummy_pig/idle_down_0",
+      "mummy_pig/idle_down_1",
+      "mummy_pig/idle_down_2",
+      "mummy_pig/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "mummy_pig/talk_down_0",
+      "mummy_pig/talk_down_1",
+      "mummy_pig/talk_down_2",
+      "mummy_pig/talk_down_3"
+     ]
+    }
+   }
+  },
+  "nanny": {
+   "page": "nanny_talk-0",
+   "w": 180,
+   "h": 252,
+   "footY": 247,
+   "px": 232,
+   "clips": {
+    "idle": {
+     "down": [
+      "nanny/idle_down_0",
+      "nanny/idle_down_1",
+      "nanny/idle_down_2",
+      "nanny/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "nanny/talk_down_0",
+      "nanny/talk_down_1",
+      "nanny/talk_down_2",
+      "nanny/talk_down_3"
+     ]
+    }
+   }
+  },
+  "paddington": {
+   "page": "paddington_talk-0",
+   "w": 324,
+   "h": 323,
+   "footY": 316,
+   "px": 298,
+   "clips": {
+    "idle": {
+     "down": [
+      "paddington/idle_down_0",
+      "paddington/idle_down_1",
+      "paddington/idle_down_2",
+      "paddington/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "paddington/talk_down_0",
+      "paddington/talk_down_1",
+      "paddington/talk_down_2",
+      "paddington/talk_down_3"
+     ]
+    }
+   }
+  },
+  "pando": {
+   "page": "pando_talk-0",
+   "w": 212,
+   "h": 249,
+   "footY": 245,
+   "px": 227,
+   "clips": {
+    "idle": {
+     "down": [
+      "pando/idle_down_0",
+      "pando/idle_down_1",
+      "pando/idle_down_2",
+      "pando/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "pando/talk_down_0",
+      "pando/talk_down_1",
+      "pando/talk_down_2",
+      "pando/talk_down_3"
+     ]
+    }
+   }
+  },
+  "pandy": {
+   "page": "pandy_talk-0",
+   "w": 216,
+   "h": 246,
+   "footY": 242,
+   "px": 224,
+   "clips": {
+    "idle": {
+     "down": [
+      "pandy/idle_down_0",
+      "pandy/idle_down_1",
+      "pandy/idle_down_2",
+      "pandy/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "pandy/talk_down_0",
+      "pandy/talk_down_1",
+      "pandy/talk_down_2",
+      "pandy/talk_down_3"
+     ]
+    }
+   }
+  },
+  "peppa": {
+   "page": "peppa_talk-0",
+   "w": 342,
+   "h": 314,
+   "footY": 304,
+   "px": 286,
+   "clips": {
+    "idle": {
+     "down": [
+      "peppa/idle_down_0",
+      "peppa/idle_down_1",
+      "peppa/idle_down_2",
+      "peppa/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "peppa/talk_down_0",
+      "peppa/talk_down_1",
+      "peppa/talk_down_2",
+      "peppa/talk_down_3"
+     ]
+    }
+   }
+  },
+  "pig": {
+   "page": "pig_talk-0",
+   "w": 344,
+   "h": 292,
+   "footY": 287,
+   "px": 230,
+   "clips": {
+    "idle": {
+     "down": [
+      "pig/idle_down_0",
+      "pig/idle_down_1",
+      "pig/idle_down_2",
+      "pig/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": []
+    }
+   }
+  },
+  "potato": {
+   "page": "potato_talk-0",
+   "w": 324,
+   "h": 291,
+   "footY": 288,
+   "px": 270,
+   "clips": {
+    "idle": {
+     "down": [
+      "potato/idle_down_0",
+      "potato/idle_down_1",
+      "potato/idle_down_2",
+      "potato/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "potato/talk_down_0",
+      "potato/talk_down_1",
+      "potato/talk_down_2",
+      "potato/talk_down_3"
+     ]
+    }
+   }
+  },
+  "rex": {
+   "page": "rex_talk-0",
+   "w": 196,
+   "h": 246,
+   "footY": 242,
+   "px": 229,
+   "clips": {
+    "idle": {
+     "down": [
+      "rex/idle_down_0",
+      "rex/idle_down_1",
+      "rex/idle_down_2",
+      "rex/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "rex/talk_down_0",
+      "rex/talk_down_1",
+      "rex/talk_down_2",
+      "rex/talk_down_3"
+     ]
+    }
+   }
+  },
+  "rumi": {
+   "page": "rumi_talk-0",
+   "w": 210,
+   "h": 307,
+   "footY": 303,
+   "px": 292,
+   "clips": {
+    "idle": {
+     "down": [
+      "rumi/idle_down_0",
+      "rumi/idle_down_1"
+     ]
+    },
+    "talk": {
+     "down": [
+      "rumi/talk_down_0",
+      "rumi/talk_down_1"
+     ]
+    }
+   }
+  },
+  "sheep": {
+   "page": "sheep_talk-0",
+   "w": 310,
+   "h": 297,
+   "footY": 290,
+   "px": 261,
+   "clips": {
+    "idle": {
+     "down": [
+      "sheep/idle_down_0",
+      "sheep/idle_down_1",
+      "sheep/idle_down_2",
+      "sheep/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": []
+    }
+   }
+  },
+  "alex": {
+   "page": "alex_talk-0",
+   "w": 192,
+   "h": 246,
+   "footY": 242,
+   "px": 231,
+   "clips": {
+    "idle": {
+     "down": [
+      "alex/idle_down_0",
+      "alex/idle_down_1",
+      "alex/idle_down_2",
+      "alex/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "alex/talk_down_0",
+      "alex/talk_down_1",
+      "alex/talk_down_2",
+      "alex/talk_down_3"
+     ]
+    }
+   }
+  },
+  "skeleton": {
+   "page": "skeleton_talk-0",
+   "w": 278,
+   "h": 313,
+   "footY": 309,
+   "px": 279,
+   "clips": {
+    "idle": {
+     "down": [
+      "skeleton/idle_down_0",
+      "skeleton/idle_down_1",
+      "skeleton/idle_down_2",
+      "skeleton/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": []
+    }
+   }
+  },
+  "slinky": {
+   "page": "slinky_talk-0",
+   "w": 304,
+   "h": 243,
+   "footY": 239,
+   "px": 218,
+   "clips": {
+    "idle": {
+     "down": [
+      "slinky/idle_down_0",
+      "slinky/idle_down_1",
+      "slinky/idle_down_2",
+      "slinky/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "slinky/talk_down_0",
+      "slinky/talk_down_1",
+      "slinky/talk_down_2",
+      "slinky/talk_down_3"
+     ]
+    }
+   }
+  },
+  "robin": {
+   "page": "robin_talk-0",
+   "w": 182,
+   "h": 248,
+   "footY": 244,
+   "px": 232,
+   "clips": {
+    "idle": {
+     "down": [
+      "robin/idle_down_0",
+      "robin/idle_down_1",
+      "robin/idle_down_2",
+      "robin/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "robin/talk_down_0",
+      "robin/talk_down_1",
+      "robin/talk_down_2",
+      "robin/talk_down_3"
+     ]
+    }
+   }
+  },
+  "spider": {
+   "page": "spider_talk-0",
+   "w": 430,
+   "h": 268,
+   "footY": 249,
+   "px": 191,
+   "clips": {
+    "idle": {
+     "down": [
+      "spider/idle_down_0",
+      "spider/idle_down_1",
+      "spider/idle_down_2",
+      "spider/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": []
+    }
+   }
+  },
+  "stuart": {
+   "page": "stuart_talk-0",
+   "w": 338,
+   "h": 295,
+   "footY": 289,
+   "px": 276,
+   "clips": {
+    "idle": {
+     "down": [
+      "stuart/idle_down_0",
+      "stuart/idle_down_1"
+     ]
+    },
+    "talk": {
+     "down": [
+      "stuart/talk_down_0",
+      "stuart/talk_down_1"
+     ]
+    }
+   }
+  },
+  "sula": {
+   "page": "sula_talk-0",
+   "w": 210,
+   "h": 248,
+   "footY": 244,
+   "px": 233,
+   "clips": {
+    "idle": {
+     "down": [
+      "sula/idle_down_0",
+      "sula/idle_down_1",
+      "sula/idle_down_2",
+      "sula/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "sula/talk_down_0",
+      "sula/talk_down_1",
+      "sula/talk_down_2",
+      "sula/talk_down_3"
+     ]
+    }
+   }
+  },
+  "teacher": {
+   "page": "teacher_talk-0",
+   "w": 170,
+   "h": 248,
+   "footY": 244,
+   "px": 232,
+   "clips": {
+    "idle": {
+     "down": [
+      "teacher/idle_down_0",
+      "teacher/idle_down_1",
+      "teacher/idle_down_2",
+      "teacher/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "teacher/talk_down_0",
+      "teacher/talk_down_1",
+      "teacher/talk_down_2",
+      "teacher/talk_down_3"
+     ]
+    }
+   }
+  },
+  "villager_a": {
+   "page": "villager_a_talk-0",
+   "w": 232,
+   "h": 300,
+   "footY": 295,
+   "px": 285,
+   "clips": {
+    "idle": {
+     "down": [
+      "villager_a/idle_down_0",
+      "villager_a/idle_down_1",
+      "villager_a/idle_down_2",
+      "villager_a/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "villager_a/talk_down_0",
+      "villager_a/talk_down_1",
+      "villager_a/talk_down_2",
+      "villager_a/talk_down_3"
+     ]
+    }
+   }
+  },
+  "villager_b": {
+   "page": "villager_b_talk-0",
+   "w": 238,
+   "h": 300,
+   "footY": 296,
+   "px": 279,
+   "clips": {
+    "idle": {
+     "down": [
+      "villager_b/idle_down_0",
+      "villager_b/idle_down_1",
+      "villager_b/idle_down_2",
+      "villager_b/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "villager_b/talk_down_0",
+      "villager_b/talk_down_1",
+      "villager_b/talk_down_2",
+      "villager_b/talk_down_3"
+     ]
+    }
+   }
+  },
+  "wandering_trader": {
+   "page": "wandering_trader_talk-0",
+   "w": 234,
+   "h": 295,
+   "footY": 290,
+   "px": 275,
+   "clips": {
+    "idle": {
+     "down": [
+      "wandering_trader/idle_down_0",
+      "wandering_trader/idle_down_1",
+      "wandering_trader/idle_down_2",
+      "wandering_trader/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": [
+      "wandering_trader/talk_down_0",
+      "wandering_trader/talk_down_1",
+      "wandering_trader/talk_down_2",
+      "wandering_trader/talk_down_3"
+     ]
+    }
+   }
+  },
+  "wolf": {
+   "page": "wolf_talk-0",
+   "w": 322,
+   "h": 301,
+   "footY": 297,
+   "px": 269,
+   "clips": {
+    "idle": {
+     "down": [
+      "wolf/idle_down_0",
+      "wolf/idle_down_1",
+      "wolf/idle_down_2",
+      "wolf/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": []
+    }
+   }
+  },
+  "woody": {
+   "page": "woody_talk-0",
+   "w": 274,
+   "h": 314,
+   "footY": 310,
+   "px": 292,
+   "clips": {
+    "idle": {
+     "down": [
+      "woody/idle_down_0",
+      "woody/idle_down_1"
+     ]
+    },
+    "talk": {
+     "down": [
+      "woody/talk_down_0",
+      "woody/talk_down_1"
+     ]
+    }
+   }
+  },
+  "zoey": {
+   "page": "zoey_talk-0",
+   "w": 202,
+   "h": 303,
+   "footY": 299,
+   "px": 293,
+   "clips": {
+    "idle": {
+     "down": [
+      "zoey/idle_down_0",
+      "zoey/idle_down_1"
+     ]
+    },
+    "talk": {
+     "down": [
+      "zoey/talk_down_0",
+      "zoey/talk_down_1"
+     ]
+    }
+   }
+  },
+  "zombie": {
+   "page": "zombie_talk-0",
+   "w": 226,
+   "h": 313,
+   "footY": 306,
+   "px": 275,
+   "clips": {
+    "idle": {
+     "down": [
+      "zombie/idle_down_0",
+      "zombie/idle_down_1",
+      "zombie/idle_down_2",
+      "zombie/idle_down_3"
+     ]
+    },
+    "talk": {
+     "down": []
+    }
+   }
+  }
+ }
+}

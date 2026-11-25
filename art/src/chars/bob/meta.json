@@ -1,0 +1,139 @@
+{
+  "id": "bob",
+  "group": "hero_bob",
+  "tall": 1.35,
+  "w": 130,
+  "h": 122,
+  "footY": 117,
+  "px": 112,
+  "clips": {
+    "idle": {
+      "down": [
+        "idle_down_0.png",
+        "idle_down_1.png"
+      ],
+      "side": [
+        "idle_side_0.png",
+        "idle_side_1.png"
+      ],
+      "up": [
+        "idle_up_0.png",
+        "idle_up_1.png"
+      ]
+    },
+    "walk": {
+      "down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png",
+        "walk_down_3.png"
+      ],
+      "side": [
+        "walk_side_0.png",
+        "walk_side_1.png",
+        "walk_side_2.png",
+        "walk_side_3.png"
+      ],
+      "up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png",
+        "walk_up_3.png"
+      ]
+    },
+    "talk": {
+      "down": [
+        "talk_down_0.png",
+        "talk_down_1.png"
+      ],
+      "side": [
+        "talk_side_0.png",
+        "talk_side_1.png"
+      ]
+    },
+    "swing": {
+      "down": [
+        "swing_down_0.png",
+        "swing_down_1.png",
+        "swing_down_2.png"
+      ],
+      "side": [
+        "swing_side_0.png",
+        "swing_side_1.png",
+        "swing_side_2.png"
+      ],
+      "up": [
+        "swing_up_0.png",
+        "swing_up_1.png",
+        "swing_up_2.png"
+      ]
+    },
+    "hurt": {
+      "down": [
+        "hurt_down_0.png",
+        "hurt_down_1.png"
+      ],
+      "side": [
+        "hurt_side_0.png",
+        "hurt_side_1.png"
+      ]
+    },
+    "wave": {
+      "down": [
+        "wave_down_0.png",
+        "wave_down_1.png"
+      ]
+    },
+    "surprised": {
+      "down": [
+        "surprised_down_0.png"
+      ]
+    },
+    "fish": {
+      "side": [
+        "fish_side_0.png",
+        "fish_side_1.png",
+        "fish_side_2.png"
+      ]
+    },
+    "cheer": {
+      "down": [
+        "cheer_down_0.png",
+        "cheer_down_1.png",
+        "cheer_down_2.png",
+        "cheer_down_3.png"
+      ]
+    },
+    "sleep": {
+      "down": [
+        "sleep_down_0.png",
+        "sleep_down_1.png"
+      ]
+    },
+    "sit": {
+      "down": [
+        "sit_down_0.png"
+      ]
+    },
+    "laugh": {
+      "down": [
+        "laugh_down_0.png",
+        "laugh_down_1.png"
+      ]
+    }
+  },
+  "timing": {
+    "walk": {
+      "durs": [
+        0.09,
+        0.09,
+        0.09,
+        0.09
+      ],
+      "step": [
+        1,
+        3
+      ]
+    }
+  }
+}

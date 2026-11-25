@@ -1,0 +1,141 @@
+{
+  "id": "grandad",
+  "group": "square",
+  "tall": 2.05,
+  "w": 154,
+  "h": 186,
+  "footY": 182,
+  "px": 171,
+  "clips": {
+    "idle": {
+      "down": [
+        "idle_down_0.png",
+        "idle_down_1.png",
+        "idle_down_2.png",
+        "idle_down_3.png"
+      ],
+      "side": [
+        "idle_side_0.png",
+        "idle_side_1.png",
+        "idle_side_2.png",
+        "idle_side_3.png"
+      ],
+      "up": [
+        "idle_up_0.png",
+        "idle_up_1.png",
+        "idle_up_2.png",
+        "idle_up_3.png"
+      ]
+    },
+    "walk": {
+      "down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png",
+        "walk_down_3.png",
+        "walk_down_4.png",
+        "walk_down_5.png",
+        "walk_down_6.png",
+        "walk_down_7.png"
+      ],
+      "side": [
+        "walk_side_0.png",
+        "walk_side_1.png",
+        "walk_side_2.png",
+        "walk_side_3.png",
+        "walk_side_4.png",
+        "walk_side_5.png",
+        "walk_side_6.png",
+        "walk_side_7.png"
+      ],
+      "up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png",
+        "walk_up_3.png",
+        "walk_up_4.png",
+        "walk_up_5.png",
+        "walk_up_6.png",
+        "walk_up_7.png"
+      ]
+    },
+    "talk": {
+      "down": [
+        "talk_down_0.png",
+        "talk_down_1.png",
+        "talk_down_2.png",
+        "talk_down_3.png"
+      ],
+      "side": [
+        "talk_side_0.png",
+        "talk_side_1.png",
+        "talk_side_2.png",
+        "talk_side_3.png"
+      ]
+    },
+    "wave": {
+      "down": [
+        "wave_down_0.png",
+        "wave_down_1.png",
+        "wave_down_2.png"
+      ],
+      "up": [
+        "wave_up_0.png",
+        "wave_up_1.png",
+        "wave_up_2.png"
+      ]
+    },
+    "cheer": {
+      "down": [
+        "cheer_down_0.png",
+        "cheer_down_1.png"
+      ]
+    },
+    "laugh": {
+      "down": [
+        "laugh_down_0.png",
+        "laugh_down_1.png"
+      ]
+    },
+    "surprised": {
+      "down": [
+        "surprised_down_0.png"
+      ]
+    },
+    "think": {
+      "down": [
+        "think_down_0.png"
+      ]
+    },
+    "look": {
+      "up": [
+        "look_up_0.png"
+      ]
+    }
+  },
+  "timing": {
+    "walk": {
+      "durs": [
+        0.089,
+        0.068,
+        0.061,
+        0.061,
+        0.089,
+        0.068,
+        0.061,
+        0.061
+      ],
+      "step": [
+        0,
+        4
+      ]
+    },
+    "wave": {
+      "durs": [
+        0.16,
+        0.2,
+        0.2
+      ]
+    }
+  }
+}

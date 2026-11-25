@@ -1,0 +1,415 @@
+{
+  "words": {
+    "bale": {
+      "pic": "hay_block"
+    },
+    "mic": {
+      "pic": "mic"
+    },
+    "bookshelf": {
+      "pic": "bookshelf"
+    },
+    "boulder": {
+      "pic": ""
+    },
+    "bunting": {
+      "pic": "bat_bunting"
+    },
+    "cane": {
+      "pic": "sugar_cane"
+    },
+    "carp": {
+      "pic": "pond_carp"
+    },
+    "cobblestone": {
+      "pic": "cobblestone",
+      "show": true
+    },
+    "confetti": {
+      "pic": ""
+    },
+    "cowgirl": {
+      "pic": ""
+    },
+    "crater": {
+      "pic": ""
+    },
+    "creeper": {
+      "pic": ""
+    },
+    "dinos": {
+      "pic": ""
+    },
+    "disc": {
+      "pic": "disc_gum"
+    },
+    "dj": {
+      "pic": ""
+    },
+    "dollhouse": {
+      "pic": "dollhouse"
+    },
+    "driftwood": {
+      "pic": "driftwood"
+    },
+    "emerald": {
+      "pic": "emerald"
+    },
+    "enderman": {
+      "pic": ""
+    },
+    "fossil": {
+      "pic": "fossil"
+    },
+    "furnace": {
+      "pic": "furnace",
+      "show": true
+    },
+    "golem": {
+      "pic": "snow_golem"
+    },
+    "gravel": {
+      "pic": "path_gravel"
+    },
+    "grove": {
+      "pic": ""
+    },
+    "gunpowder": {
+      "pic": "gunpowder"
+    },
+    "hisses": {
+      "pic": ""
+    },
+    "jack": {
+      "pic": ""
+    },
+    "jockey": {
+      "pic": ""
+    },
+    "joey": {
+      "pic": "joey"
+    },
+    "journal": {
+      "pic": ""
+    },
+    "jukebox": {
+      "pic": "jukebox"
+    },
+    "lighthouse": {
+      "pic": "lighthouse",
+      "show": true
+    },
+    "mackerel": {
+      "pic": "mackerel"
+    },
+    "mailbox": {
+      "pic": "mailbox"
+    },
+    "marmalade": {
+      "pic": "marmalade",
+      "show": true
+    },
+    "minecart": {
+      "pic": "minecart"
+    },
+    "minnow": {
+      "pic": "minnow"
+    },
+    "mob": {
+      "pic": ""
+    },
+    "nook": {
+      "pic": "nanny_nook"
+    },
+    "nuzzle": {
+      "pic": ""
+    },
+    "o'lantern": {
+      "pic": "jack_lantern"
+    },
+    "ore": {
+      "pic": "iron_ore"
+    },
+    "pawsome": {
+      "pic": ""
+    },
+    "pickaxe": {
+      "pic": "wood_pick"
+    },
+    "pillar": {
+      "pic": "pillar"
+    },
+    "plot": {
+      "pic": ""
+    },
+    "plush": {
+      "pic": "creeper_plush"
+    },
+    "prank": {
+      "pic": ""
+    },
+    "quarry": {
+      "pic": ""
+    },
+    "radar": {
+      "pic": "radar_dish"
+    },
+    "sandpit": {
+      "pic": "sandpit"
+    },
+    "sardine": {
+      "pic": "sardine"
+    },
+    "scarecrow": {
+      "pic": "scarecrow"
+    },
+    "scorch": {
+      "pic": ""
+    },
+    "shard": {
+      "pic": "shard"
+    },
+    "sheriff": {
+      "pic": ""
+    },
+    "snowball": {
+      "pic": "snowball"
+    },
+    "spiral": {
+      "pic": "shell_spiral"
+    },
+    "stall": {
+      "pic": "stall"
+    },
+    "stampede": {
+      "pic": ""
+    },
+    "starfish": {
+      "pic": "starfish"
+    },
+    "tnt": {
+      "pic": "tnt"
+    },
+    "trader": {
+      "pic": ""
+    },
+    "treehouse": {
+      "pic": "treehouse"
+    },
+    "veranda": {
+      "pic": "veranda"
+    },
+    "villager": {
+      "pic": ""
+    },
+    "wellies": {
+      "pic": "wellies"
+    },
+    "workbench": {
+      "pic": "workbench"
+    },
+    "zombie": {
+      "pic": ""
+    }
+  },
+  "names": [
+    "Baku",
+    "Bandit",
+    "Bing",
+    "Bingo",
+    "Bluey",
+    "Bo",
+    "Bob",
+    "Bullseye",
+    "Buzz",
+    "Cakey",
+    "Catnip",
+    "Chilli",
+    "Coco",
+    "Crater",
+    "DJ",
+    "Dave",
+    "Dollhouse",
+    "Flop",
+    "Forky",
+    "Gabby",
+    "George",
+    "Grove",
+    "Hamm",
+    "Heeler",
+    "Hoppity",
+    "Jerry",
+    "Jessie",
+    "Keepy",
+    "Kevin",
+    "Kitty",
+    "Kuromi",
+    "Lucy",
+    "MerCat",
+    "Mimmy",
+    "Mummy",
+    "Paddington",
+    "Pando",
+    "Pandy",
+    "Paws",
+    "Peppa",
+    "Rex",
+    "Slinky",
+    "Stuart",
+    "Sula",
+    "Uppy",
+    "Valley",
+    "Woody",
+    "Minion",
+    "Rumi",
+    "Mira",
+    "Zoey"
+  ],
+  "verbs": [
+    "Talk",
+    "Find",
+    "Bring",
+    "Make",
+    "Place",
+    "Build",
+    "Beat",
+    "Go",
+    "Catch",
+    "Grow",
+    "Lead",
+    "Play",
+    "Sleep",
+    "Wait",
+    "Open",
+    "Collect",
+    "Visit",
+    "Light",
+    "Fix",
+    "Plant",
+    "Feed",
+    "Give",
+    "Help",
+    "Meet",
+    "Look",
+    "Get",
+    "Take",
+    "Use",
+    "Fish",
+    "Mine",
+    "Chop",
+    "Cook",
+    "Bake",
+    "Hide",
+    "Follow",
+    "Dig",
+    "Climb",
+    "Cross",
+    "Hang",
+    "Pick",
+    "Sell",
+    "Buy",
+    "Read",
+    "Ride",
+    "Save",
+    "Show",
+    "Pull",
+    "Push",
+    "Race",
+    "Try",
+    "Check",
+    "Set",
+    "Put",
+    "Count",
+    "Water",
+    "Win",
+    "Walk",
+    "Stay",
+    "Keep",
+    "Throw",
+    "Stop",
+    "Call",
+    "Smash",
+    "Rest",
+    "Hunt",
+    "Escape",
+    "Reach",
+    "Return",
+    "Search",
+    "Row",
+    "Sail",
+    "Swim",
+    "Dance",
+    "Paint",
+    "Draw",
+    "Wear",
+    "Dress",
+    "Decorate",
+    "Tidy",
+    "Pack",
+    "Gather",
+    "Mend",
+    "Hatch",
+    "Pet",
+    "Carry",
+    "Craft",
+    "Defeat",
+    "Hit",
+    "Swap",
+    "Trade",
+    "Clean",
+    "Fill",
+    "Finish",
+    "Start",
+    "Wake",
+    "Wish",
+    "Cut",
+    "Lift",
+    "Jump",
+    "Sneak",
+    "Break",
+    "Calm",
+    "Ask",
+    "Run",
+    "Hold",
+    "Shake"
+  ],
+  "nonsense": [
+    "Hrmm",
+    "Hrm",
+    "Hmm",
+    "Dine-saw",
+    "Grrr",
+    "Yee-ha",
+    "Whee",
+    "Howdy",
+    "Golly",
+    "Hee",
+    "Ho",
+    "Banana",
+    "Bee-do",
+    "Gelato",
+    "Papoy",
+    "Yaaay",
+    "Aaah",
+    "Uh-oh",
+    "Oooh",
+    "Brrr",
+    "Ssss",
+    "Boom",
+    "Ha",
+    "Ha-ha",
+    "Hehe",
+    "Hee-hee",
+    "Mmm",
+    "Mm",
+    "Eek",
+    "Waaah",
+    "Hibbo",
+    "Byebo",
+    "Fanka",
+    "Loolaloo",
+    "Weeoo",
+    "Boo",
+    "Cluck"
+  ]
+}

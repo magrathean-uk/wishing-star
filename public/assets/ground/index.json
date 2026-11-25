@@ -1,0 +1,210 @@
+{
+  "chunk": 512,
+  "areas": {
+    "island": {
+      "cw": 20,
+      "ch": 15,
+      "sets": [
+        "n",
+        "s"
+      ]
+    },
+    "cottage": {
+      "cw": 2,
+      "ch": 2,
+      "sets": [
+        "n"
+      ]
+    },
+    "mine1": {
+      "cw": 6,
+      "ch": 4,
+      "sets": [
+        "n"
+      ]
+    },
+    "mine2": {
+      "cw": 6,
+      "ch": 4,
+      "sets": [
+        "n"
+      ]
+    },
+    "mine3": {
+      "cw": 6,
+      "ch": 4,
+      "sets": [
+        "n"
+      ]
+    },
+    "hall": {
+      "cw": 4,
+      "ch": 3,
+      "sets": [
+        "n"
+      ]
+    },
+    "cave": {
+      "cw": 2,
+      "ch": 1,
+      "sets": [
+        "n"
+      ]
+    },
+    "workshop_in": {
+      "cw": 2,
+      "ch": 1,
+      "sets": [
+        "n"
+      ]
+    },
+    "heeler_in": {
+      "cw": 2,
+      "ch": 1,
+      "sets": [
+        "n"
+      ]
+    },
+    "peppa_in": {
+      "cw": 2,
+      "ch": 1,
+      "sets": [
+        "n"
+      ]
+    },
+    "bing_in": {
+      "cw": 2,
+      "ch": 1,
+      "sets": [
+        "n"
+      ]
+    },
+    "village_in": {
+      "cw": 2,
+      "ch": 1,
+      "sets": [
+        "n"
+      ]
+    },
+    "cafe_in": {
+      "cw": 3,
+      "ch": 1,
+      "sets": [
+        "n"
+      ]
+    },
+    "doll_in": {
+      "cw": 2,
+      "ch": 2,
+      "sets": [
+        "n"
+      ]
+    },
+    "post_in": {
+      "cw": 2,
+      "ch": 1,
+      "sets": [
+        "n"
+      ]
+    },
+    "nook_in": {
+      "cw": 2,
+      "ch": 1,
+      "sets": [
+        "n"
+      ]
+    },
+    "school_in": {
+      "cw": 2,
+      "ch": 2,
+      "sets": [
+        "n"
+      ]
+    },
+    "green_in": {
+      "cw": 3,
+      "ch": 1,
+      "sets": [
+        "n"
+      ]
+    },
+    "lookout_in": {
+      "cw": 1,
+      "ch": 1,
+      "sets": [
+        "n"
+      ]
+    },
+    "lighthouse_in": {
+      "cw": 2,
+      "ch": 2,
+      "sets": [
+        "n"
+      ]
+    },
+    "keeper_in": {
+      "cw": 2,
+      "ch": 1,
+      "sets": [
+        "n"
+      ]
+    },
+    "lamp_in": {
+      "cw": 2,
+      "ch": 1,
+      "sets": [
+        "n"
+      ]
+    },
+    "tree_in": {
+      "cw": 2,
+      "ch": 1,
+      "sets": [
+        "n"
+      ]
+    },
+    "vh1_in": {
+      "cw": 2,
+      "ch": 1,
+      "sets": [
+        "n"
+      ]
+    },
+    "vh3_in": {
+      "cw": 2,
+      "ch": 2,
+      "sets": [
+        "n"
+      ]
+    },
+    "vh4_in": {
+      "cw": 2,
+      "ch": 1,
+      "sets": [
+        "n"
+      ]
+    },
+    "beacon_in": {
+      "cw": 1,
+      "ch": 1,
+      "sets": [
+        "n"
+      ]
+    },
+    "mill_in": {
+      "cw": 2,
+      "ch": 2,
+      "sets": [
+        "n"
+      ]
+    },
+    "meet": {
+      "cw": 5,
+      "ch": 4,
+      "sets": [
+        "n",
+        "s"
+      ]
+    }
+  }
+}

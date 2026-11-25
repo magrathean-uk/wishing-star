@@ -1,0 +1,36 @@
+{
+  "id": "forky",
+  "group": "home",
+  "tall": 1.2,
+  "w": 98,
+  "h": 108,
+  "footY": 104,
+  "px": 100,
+  "clips": {
+    "idle": {
+      "down": [
+        "idle_down_0.png",
+        "idle_down_1.png"
+      ]
+    },
+    "talk": {
+      "down": [
+        "talk_down_0.png",
+        "talk_down_1.png"
+      ]
+    },
+    "wave": {
+      "down": [
+        "wave_down_0.png",
+        "wave_down_1.png"
+      ]
+    },
+    "hop": {
+      "down": [
+        "hop_down_0.png",
+        "hop_down_1.png",
+        "hop_down_2.png"
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "sideQuestsMin": 40,
+  "familyQuestsMin": 8,
+  "perExtraGroupMin": 3,
+  "perStyleMin": 8,
+  "perRegionMin": 2,
+  "friendLines": 8,
+  "cuts": []
+}

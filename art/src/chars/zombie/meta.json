@@ -1,0 +1,144 @@
+{
+  "id": "zombie",
+  "group": "mobs",
+  "tall": 2,
+  "w": 140,
+  "h": 191,
+  "footY": 186,
+  "px": 166,
+  "clips": {
+    "idle": {
+      "down": [
+        "idle_down_0.png",
+        "idle_down_1.png",
+        "idle_down_2.png",
+        "idle_down_3.png"
+      ],
+      "side": [
+        "idle_side_0.png",
+        "idle_side_1.png",
+        "idle_side_2.png",
+        "idle_side_3.png"
+      ],
+      "up": [
+        "idle_up_0.png",
+        "idle_up_1.png",
+        "idle_up_2.png",
+        "idle_up_3.png"
+      ]
+    },
+    "walk": {
+      "down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png",
+        "walk_down_3.png",
+        "walk_down_4.png",
+        "walk_down_5.png",
+        "walk_down_6.png",
+        "walk_down_7.png"
+      ],
+      "side": [
+        "walk_side_0.png",
+        "walk_side_1.png",
+        "walk_side_2.png",
+        "walk_side_3.png",
+        "walk_side_4.png",
+        "walk_side_5.png",
+        "walk_side_6.png",
+        "walk_side_7.png"
+      ],
+      "up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png",
+        "walk_up_3.png",
+        "walk_up_4.png",
+        "walk_up_5.png",
+        "walk_up_6.png",
+        "walk_up_7.png"
+      ]
+    },
+    "attack": {
+      "down": [
+        "attack_down_0.png",
+        "attack_down_1.png",
+        "attack_down_2.png",
+        "attack_down_3.png"
+      ],
+      "side": [
+        "attack_side_0.png",
+        "attack_side_1.png",
+        "attack_side_2.png",
+        "attack_side_3.png"
+      ],
+      "up": [
+        "attack_up_0.png",
+        "attack_up_1.png",
+        "attack_up_2.png",
+        "attack_up_3.png"
+      ]
+    },
+    "hurt": {
+      "down": [
+        "hurt_down_0.png",
+        "hurt_down_1.png",
+        "hurt_down_2.png"
+      ],
+      "side": [
+        "hurt_side_0.png",
+        "hurt_side_1.png",
+        "hurt_side_2.png"
+      ]
+    },
+    "dizzy": {
+      "down": [
+        "dizzy_down_0.png",
+        "dizzy_down_1.png",
+        "dizzy_down_2.png"
+      ],
+      "side": [
+        "dizzy_side_0.png",
+        "dizzy_side_1.png",
+        "dizzy_side_2.png"
+      ]
+    },
+    "calm": {
+      "down": [
+        "calm_down_0.png",
+        "calm_down_1.png",
+        "calm_down_2.png"
+      ]
+    },
+    "surprised": {
+      "down": [
+        "surprised_down_0.png"
+      ]
+    }
+  },
+  "timing": {
+    "walk": {
+      "durs": [
+        0.165,
+        0,
+        0.165,
+        0,
+        0.165,
+        0,
+        0.165,
+        0
+      ],
+      "step": [
+        0,
+        4
+      ]
+    },
+    "hurt": {
+      "durs": [
+        0.1,
+        0.14,
+        0.16
+      ]
+    }
+  }
+}
